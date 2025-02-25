@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+    }
+    * {
+      margin: 0;
+      box-sizing: border-box;
+    }
+    .container {
+      max-width: 1170px;
+      margin: auto;
+    }
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+    .gallery {
+      width: 100%;
+      min-height: 100vh;
+      background-color: #ffe48b;
+      padding-top: 100px;
+    }
+    .gallery .gallery-item {
+      width: calc(100% / 4); /* Smaller images, 4 per row */
+      padding: 10px;
+    }
+    .gallery h1 {
+      color: rgb(85, 81, 42);
+      text-align: center;
+      font-size: 3rem;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      padding: 20px 0;
+      left: 0;
+      background-color: #ffe48b;
+      z-index: 1000;
+    }
+  </style>
+</head>
+<body>
+  <section class="gallery">
+    <div class="container">
+      <div class="row">
+        <h1>SABRINA CARPENTER</h1>
+      </div>
+      <div class="row">
+        <div class="gallery-item">
+            <img src="img/sab/1.jpg">
+        </div>
+        <div class="gallery-item">
+            <img src="img/sab/2.jpg">
+        </div>
+        <div class="gallery-item">
+            <img src="img/sab/3.jpg">
+        </div>
+        <div class="gallery-item">
+            <img src="img/sab/4.jpg">
+        </div>
+        <div class="gallery-item">
+            <img src="img/sab/5.jpg">
+        </div>
+        <div class="gallery-item">
+            <img src="img/sab/6.jpg">
+        </div>
+        <div class="gallery-item">
+            <img src="img/sab/7.jpg">
+        </div>
+        <div class="gallery-item">
+            <img src="img/sab/8.jpg">
+        </div>
+
+      </div>
+    </div>
+  </section>
+</body>
+</html>
